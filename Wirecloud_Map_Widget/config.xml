@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="aui" name="cityIoT_map" version="0.0.2">
+    <details>
+        <title>MAPS_WIDGET</title>
+        <email>auistola@student.oulu.fi</email>
+        <image>images/catalogue.png</image>
+        <description>Searched JSON dumps from specific server</description>
+        <longdescription>DESCRIPTION.md</longdescription>
+        <authors>Anssi Uistola, Pekka Okkonen</authors>
+        <homepage>https://github.com/stolau/widgetBrowser</homepage>
+        <license>Apache License 2.0</license>
+        <licenseurl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseurl>
+        <doc>doc/userguide.md</doc>
+        <changelog>doc/changelog.md</changelog>
+    </details>
+
+
+    <preferences>
+        <preference name="mapboxAccessToken" type="text" label="mapboxAccessToken" description="Access Plotly with access token" default=" "/>
+    </preferences>
+
+    <wiring>
+        <inputendpoint
+                name="Input_premade"
+                label="Input_premade"
+                type="text" />
+        <inputendpoint
+                name="Input_custom"
+                label="Input_custom"
+                type="text" />
+    </wiring>
+
+    <contents src="index.html" useplatformstyle="true"/>
+    <rendering height="300px" width="33%"/>
+</widget>

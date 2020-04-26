@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"></meta>
+        <script type="text/javascript" src="js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+      <div>
+        <h4 id="headTimePer">TimePeriod search</h4>
+        <b>Start date&time</b><br />
+        <input type="datetime-local" id="startDate"></input><br />
+        <b>End date&time</b><br />
+        <input type="datetime-local" id="endDate"></input><br />
+        <button id="btnTimePer">Use Time Per</button>
+
+        <h4 id="headLastN">LastN search</h4>
+        <input type="number" id="lastN" min=1 max=999></input><br />
+        <button id="btnLastN">Use LastN</button>
+
+        <h4 id="headMinutes">Minutes around alert</h4>
+        <input type="number" id="minutes" min=1 max=999></input><br />
+        <button id="btnMinutes">Use Minutes</button>
+		
+		<label class="switch">
+			<input type="checkbox">
+			<span class="slider"></span>
+		</label>
+        // NAPIT 
+      </div>
+    </body>
+</html>

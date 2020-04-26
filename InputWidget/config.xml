@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="aui" name="InputWidgetV2" version="0.2.5">
+    <details>
+        <title>Input Widget V2</title>
+        <homepage>https://github.com/wirecloud-fiware/quick-start-development-tutorial</homepage>
+        <authors>Pekka Okkonen</authors>
+        <contributors>Pekka Okkonen</contributors>
+        <email>Your email</email>
+        <image>images/inputpic.jpg</image> <!-- 170x80 -->
+        <description>Widget which allows to do modified searches.</description>
+        <longdescription>README.md</longdescription>
+        <license>Apache License 2.0</license>
+        <licenseurl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseurl>
+        <doc>doc/developer-guide.md</doc>
+    </details>
+
+    <wiring>
+        <outputendpoint
+                name="DatesInfo"
+                label="DatesInfo"
+                type="text"/>
+        <inputendpoint
+                name="start"
+                label="start"
+                type="text"/>
+    </wiring>
+
+    <contents src="index.html" useplatformstyle="true"/>
+    <rendering width="5" height="24"/>
+</widget>
